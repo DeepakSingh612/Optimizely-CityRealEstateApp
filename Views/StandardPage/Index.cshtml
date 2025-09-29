@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using EPiServer.Web.Mvc.Html
+@model CityRealEstate.Models.StandardPage
+<div class="container-fluid">
+    <div class="row myPage">
+        <div class="col-xs-12 col-md-9">
+            <h2>@Html.PropertyFor(x => x.Title)</h2>
+            @Html.PropertyFor(x => x.MainBody)
+        </div>
+    </div>
+</div>
+@{
+}
