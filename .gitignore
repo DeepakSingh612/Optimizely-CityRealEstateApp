@@ -21,3 +21,11 @@ modules/
 thumbs.db
 ehthumbs.db
 desktop.ini
+
+# SQL Server database files
+*.mdf
+*.ldf
+
+# SQLite database files
+*.db
+*.sqlite
